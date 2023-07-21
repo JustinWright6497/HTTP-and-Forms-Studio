@@ -13,7 +13,6 @@
 		function setSearchEngine () {
 			let selectedEngine = document.querySelector('input[name=engine]:checked');
 			let searchTerm = document.getElementsByName('q');
-			console.log(searchTerm);
 			if (!selectedEngine || !searchTerm.value) {
 				alert('Complete the form!');
 				event.preventDefault();
